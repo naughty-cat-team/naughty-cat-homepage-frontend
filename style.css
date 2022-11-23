@@ -52,21 +52,21 @@ header {
 
 .main-content {
   width: 50%;
-  margin: 70px 0;
+  margin: 50px 0;
 }
 
 .main-content h1 {
   letter-spacing: 5px;
   line-height: 1.1;
   font-size: 64px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .main-content p {
   font-size: 18px;
   color: #FF8C00;
   background-color: rgba(0, 0, 0, 0.9);
-  padding: 7px 0;
+  padding: 3px 0;
 }
 
 footer {
@@ -77,10 +77,6 @@ footer {
   list-style: none;
   display: inline;
   margin-right: 10px;
-}
-
-.icons img {
-  width: 40px;
 }
 
 @media only screen and (max-width: 1200px) {
