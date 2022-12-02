@@ -29,7 +29,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 }
 
@@ -50,6 +50,9 @@ header {
   position: absolute;
   height: 70px;
   top: 0;
+}
+
+header .logo {
   margin-top: 38px;
 }
 
@@ -110,7 +113,7 @@ footer {
   footer {
     height: 50px;
   }
-  header {
+  header .logo {
     margin-top: 20px;
   }
   .container {
