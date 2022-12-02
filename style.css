@@ -50,7 +50,6 @@ header {
   position: absolute;
   height: 70px;
   top: 0;
-  background-color: blue;
 }
 
 .logo img {
@@ -84,7 +83,6 @@ footer {
   height: 70px;
   bottom: 0;
   width: 100%;
-  background-color: blue;
 }
 
 .icons li {
