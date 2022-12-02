@@ -29,8 +29,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 100vh;
-  position: relative;
 }
 
 img {
@@ -43,6 +41,11 @@ p {
 
 .container {
   width: 1110px;
+}
+
+.main-container {
+  min-height: 100vh;
+  position: relative;
 }
 
 header {
