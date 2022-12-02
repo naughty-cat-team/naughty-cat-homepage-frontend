@@ -23,6 +23,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -55,7 +58,6 @@ main {
 }
 
 .main-content {
-  margin-top: 90px;
   width: 50%;
 }
 
@@ -101,7 +103,9 @@ footer {
     background-position: bottom center;
     background-size: contain;
   }
-  header,
+  main {
+    padding: 50px 0header;
+  }
   footer {
     height: 50px;
   }
@@ -111,10 +115,8 @@ footer {
   .container {
     max-width: 375px;
   }
-  padding: 50px 0;
   .main-content {
-    width: 95%;
-    margin-top: 50px;
+    width: 97%;
   }
   .main-content h1 {
     font-size: 40px;
