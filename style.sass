@@ -8,7 +8,6 @@
 body
     color: white
     line-height: 1.5
-    height: 100vh
     background-image: url("./background.jpg")
     background-position: bottom right
     background-repeat: no-repeat
@@ -17,7 +16,10 @@ body
     font-family: 'Josefin Sans', sans-serif
     display: flex
     flex-direction: column
-    justify-content: center
+    align-items: center
+    min-height: 100vh
+    position: relative
+
 img
     max-width: 100%
             
@@ -25,17 +27,21 @@ p
     word-spacing: 1px
 
 .container
-    margin: 0 auto
     width: 1110px
 
     // Header
 header
     width: 100%
-
-    // Main section
+    position: absolute   
+    height: 70px
+    top: 0 
+    margin-top: 38px    
+   
+// Main section
 .main-content
     width: 50%
-    margin: 50px 0
+    padding: 50px 0
+    margin-top: 90px
     h1
         letter-spacing: 5px
         line-height: 1.1
@@ -48,11 +54,14 @@ header
         padding: 3px 0
     // Footer
 footer
-    width: 100%        
+    position: absolute   
+    height: 70px
+    bottom: 0 
+   
 .icons li
     list-style: none
     display: inline
-    margin-right: 10px 
+    margin-right: 32px 
 
 @media only screen and (max-width: 1200px)
     .container
@@ -60,22 +69,23 @@ footer
 
     .main-content 
         width: 70%
-        margin: 40px 0
         
 @media only screen and (max-width: 700px)
     body
         background-image: url("./mobile-bg.jpg")
         background-position: bottom center
         background-size: contain
-        justify-content: start
+    header, 
+    footer        
+        height: 50px
+
+    header
+        margin-top: 18px        
     .container
         max-width: 375px
-        margin: 0 20px
-    header img
-        margin-top: 20px        
     .main-content
-        width: 100%
-        margin: 40px 0
+        width: 95%
+        margin-top: 50px
         h1
             font-size: 40px
             line-height: 1.1
