@@ -50,10 +50,11 @@ header {
   position: absolute;
   height: 70px;
   top: 0;
+  background-color: blue;
 }
 
-header .logo {
-  margin-top: 38px;
+.logo img {
+  margin-top: 23px;
 }
 
 main {
@@ -83,6 +84,7 @@ footer {
   height: 70px;
   bottom: 0;
   width: 100%;
+  background-color: blue;
 }
 
 .icons li {
@@ -105,16 +107,6 @@ footer {
     background-image: url("./mobile-bg.jpg");
     background-position: bottom center;
     background-size: contain;
-  }
-  main {
-    padding: 50px 0;
-  }
-  header,
-  footer {
-    height: 50px;
-  }
-  header .logo {
-    margin-top: 20px;
   }
   .container {
     max-width: 375px;
