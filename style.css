@@ -44,7 +44,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
 }
 
@@ -57,10 +57,6 @@ header {
 
 .logo img {
   margin-top: 23px;
-}
-
-main {
-  padding: 110px 0;
 }
 
 .main-content {
